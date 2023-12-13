@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: #171717;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .score_container {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+    background: transparent;
+    color: white;
+  }
+  .record_container {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+    background: transparent;
+    color: white;
+    padding-bottom: 10px;
+  }
+  
+  .game {
+    height: 500px;
+    width: 500px;
+    background: #e0e0e0;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.55);
+      border:  3px solid  #00ff80;
+  }
+  
+  .tile {
+    float: left;
+    margin: 0;
+    content: "";
+    background: #e0e0e0;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 134, 255, 0.05);
+  }
+  
+  .body {
+    background: #bdbdbd;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+  }
+  
+  .head {
+    background: black;
+  }
+  
+  .fruit {
+    background: #00b35a;
+    border-radius: 5px;
+  }
+  .instructions {
+    font-size: 13px;
+    color: #757575;
+    padding-bottom: 20px;
+  }
+  
+          .btn {
+              cursor: pointer;
+              border: 0;
+              padding: 10px 20px;
+              background: #000;
+              color: #fff;
+              border-radius: 5px;
+          }
+  
+          .btn:focus {
+              outline: 0;
+          }
+  
+          .btn:hover {
+              background: #222;
+          }
+  
+          .btn:active {
+              transform: scale(0.98);
+          }
+  
+          .info-btn {
+              position: absolute;
+              top: 30px;
+              left: 30px;
+          }
+  
+          .rules {
+              position: absolute;
+              top: 0;
+              left: 0;
+              background: #333;
+              color: #d58e5;
+              min-height: 100vh;
+              width: 400px;
+              padding: 20px;
+              line-height: 1.5;
+              transform: translateX(-400px);
+              transition: transform 1s ease-in-out;
+          }
+  
+          .rules.show {
+              transform: translateX(0);
+          }
+  h1{
+    color: #9b4637;
+    font: 300 2em 'Press Start 2P', serif;
+    margin: 0 auto
+  }
